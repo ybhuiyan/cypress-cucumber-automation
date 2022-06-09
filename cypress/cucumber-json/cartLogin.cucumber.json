@@ -1,0 +1,70 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to cart.com",
+    "line": 1,
+    "id": "login-to-cart.com",
+    "tags": [],
+    "uri": "cartLogin.feature",
+    "elements": [
+      {
+        "id": "login-to-cart.com;user-should-be-able-to-login-to-cart.com-with-valid-user-name-and-password.",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User should be able to login to cart.com with valid user name and password.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to the url https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 5448000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter valid email",
+            "result": {
+              "status": "failed",
+              "duration": 123000000,
+              "error_message": "CypressError: `cy.type()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `undefined`\n\nThe previous command that ran was:\n\n  > `cy.get()`\n    at ensureElement (https://console.cart.com/__cypress/runner/cypress_runner.js:167999:76)\n    at validateType (https://console.cart.com/__cypress/runner/cypress_runner.js:167822:16)\n    at $Cy.ensureSubjectByType (https://console.cart.com/__cypress/runner/cypress_runner.js:167858:9)\n    at $Cy.pushSubjectAndValidate (https://console.cart.com/__cypress/runner/cypress_runner.js:178651:12)\n    at Context.<anonymous> (https://console.cart.com/__cypress/runner/cypress_runner.js:178135:19)\nFrom Your Spec Code:\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/cartLogin.feature:73:26)\n    at Context.resolveAndRunStepDefinition (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/cartLogin.feature:13195:29)\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/cartLogin.feature:12516:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter valid password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the Log in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I land on organization dashboard page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

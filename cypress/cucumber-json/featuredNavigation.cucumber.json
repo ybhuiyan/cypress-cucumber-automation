@@ -1,0 +1,372 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Homepage Featured Section Navigation",
+    "line": 1,
+    "id": "homepage-featured-section-navigation",
+    "tags": [],
+    "uri": "featuredNavigation.feature",
+    "elements": [
+      {
+        "id": "homepage-featured-section-navigation;navigate-by-clicking-get-started-or-learn-more-button",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Navigate by clicking Get Started or Learn More button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in and at homepage",
+            "result": {
+              "status": "passed",
+              "duration": 21683000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the button in \"Storefront\" card",
+            "result": {
+              "status": "passed",
+              "duration": 472000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with url \"https://console.cart.com/storefront\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-featured-section-navigation;navigate-by-clicking-get-started-or-learn-more-button",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Navigate by clicking Get Started or Learn More button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in and at homepage",
+            "result": {
+              "status": "passed",
+              "duration": 16052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the button in \"Fulfillment\" card",
+            "result": {
+              "status": "passed",
+              "duration": 593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with url \"https://console.cart.com/fulfillment\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-featured-section-navigation;navigate-by-clicking-get-started-or-learn-more-button",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Navigate by clicking Get Started or Learn More button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in and at homepage",
+            "result": {
+              "status": "passed",
+              "duration": 16485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the button in \"Unified Analytics\" card",
+            "result": {
+              "status": "passed",
+              "duration": 410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with url \"https://console.cart.com/unified-analytics/dashboard\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 747000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-featured-section-navigation;navigate-by-clicking-get-started-or-learn-more-button",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Navigate by clicking Get Started or Learn More button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in and at homepage",
+            "result": {
+              "status": "passed",
+              "duration": 18706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the button in \"Multichannel Management\" card",
+            "result": {
+              "status": "passed",
+              "duration": 1423000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with url \"https://console.cart.com/multichannel-management\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-featured-section-navigation;navigate-by-clicking-get-started-or-learn-more-button",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Navigate by clicking Get Started or Learn More button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in and at homepage",
+            "result": {
+              "status": "passed",
+              "duration": 18144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the button in \"Growth Marketing\" card",
+            "result": {
+              "status": "passed",
+              "duration": 1364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with url \"https://console.cart.com/growth-marketing\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-featured-section-navigation;navigate-by-clicking-get-started-or-learn-more-button",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Navigate by clicking Get Started or Learn More button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in and at homepage",
+            "result": {
+              "status": "passed",
+              "duration": 21286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the button in \"Customer Engagement\" card",
+            "result": {
+              "status": "passed",
+              "duration": 531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with url \"https://console.cart.com/customer-engagement\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-featured-section-navigation;navigate-by-clicking-get-started-or-learn-more-button",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Navigate by clicking Get Started or Learn More button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in and at homepage",
+            "result": {
+              "status": "passed",
+              "duration": 16511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the button in \"Marketplace Services\" card",
+            "result": {
+              "status": "passed",
+              "duration": 531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with url \"https://console.cart.com/marketplace-services\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-featured-section-navigation;navigate-by-clicking-get-started-or-learn-more-button",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Navigate by clicking Get Started or Learn More button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in and at homepage",
+            "result": {
+              "status": "passed",
+              "duration": 19081000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the button in \"Data Science Solutions\" card",
+            "result": {
+              "status": "passed",
+              "duration": 651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with url \"https://console.cart.com/data-science-solutions\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-featured-section-navigation;navigate-by-clicking-get-started-or-learn-more-button",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Navigate by clicking Get Started or Learn More button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in and at homepage",
+            "result": {
+              "status": "passed",
+              "duration": 16491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the button in \"Growth Capital\" card",
+            "result": {
+              "status": "passed",
+              "duration": 436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a page with url \"https://console.cart.com/growth-capital\" appears",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

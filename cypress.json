@@ -1,0 +1,8 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "env": {
+        "auth0_username": "rivap47992@hbehs.com",
+        "auth0_password": "@Testing11"
+      },
+      "experimentalSessionAndOrigin": true
+}

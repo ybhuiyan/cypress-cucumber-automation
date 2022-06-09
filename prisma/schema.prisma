@@ -1,0 +1,97 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model AttributeGroup {
+  id                  Int      @unique
+  name                String   @unique
+  sortOrder           Int?
+  isHidden            Boolean?
+  allowDrillDown      Boolean?
+  allowMultiple       Boolean?
+  tieVariantInventory Boolean?
+  updatedAt           DateTime @default(now())
+  createdAt           DateTime @default(now())
+  isNew               Boolean?
+}
+
+model Attribute {
+  id               Int      @unique
+  attributeGroupId Int
+  name             String   @unique
+  isHidden         Boolean?
+  sortOrder        Int?
+  updatedAt        DateTime @default(now())
+  createdAt        DateTime @default(now())
+  pageTitle        String?
+  keywords         String?
+  metaDescription  String?
+  urlRewrite       String?
+  isNew            Boolean?
+}
+
+model Category {
+  id                              Int
+  name                            String   @unique
+  shortDescription                String?
+  sortOrder                       Int?
+  isHidden                        Boolean?
+  parentCategoryId                Int?
+  maxQuantity                     Int?
+  categoryThumbnail               String?
+  pageTitle                       String?
+  lookupPath                      String?
+  keywords                        String?
+  metaDescription                 String?
+  categoryImage                   String?
+  externalContentUrl              String?
+  isCategoryContentDisplayed      Boolean?
+  areSubcategoryProductsDisplayed Boolean?
+  urlRewrite                      String?
+  updatedAt                       DateTime @default(now())
+  createdAt                       DateTime @default(now())
+  defaultProductPicture           String?
+  alternateThumbnail              String?
+  headTags                        String?
+  catImageAltText                 String?
+  thumbImageAltText               String?
+  vendorStoreId                   Int?
+  isNew                           Boolean?
+}
+
+model Manufacturer {
+  id Int?
+  name String   @unique
+  description String?
+  isHidden Boolean?
+  sortOrder Int?
+  manufacturerLogoUrl String?
+  pageTitle String?
+  keywords String?
+  metaDescription String?
+  urlRewrite String?
+  updatedAt DateTime @default(now())
+  createdAt DateTime @default(now())
+  headTags String?
+}
+
+model ProductStatusModel {
+  id Int
+  name String   @unique
+  timeFrame String?
+  isUnavailable Boolean?
+  isHidden Boolean?
+  isBackOrdered Boolean?
+  showQuantity Boolean?
+  updatedAt DateTime @default(now())
+  createdAt DateTime @default(now())
+  isNew Boolean?
+}

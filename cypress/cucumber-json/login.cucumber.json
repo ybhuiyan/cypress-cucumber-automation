@@ -1,0 +1,423 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;invalid-email-and-password",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Invalid email and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 175128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I see the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 1213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I fill username with \"email\" and password with \"password\" as \"invalid\" data",
+            "result": {
+              "status": "passed",
+              "duration": 1078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "click the login button",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I see \"Wrong email or password\"",
+            "result": {
+              "status": "failed",
+              "duration": 4026000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Wrong email or password' but never did.\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/login.feature:176:6)\n    at Context.resolveAndRunStepDefinition (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/login.feature:13152:29)\n    at Context.eval (https://console.cart.com/__cypress/tests?p=cypress/integration/scenariosSteps/login.feature:12473:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;blank-email-field",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Blank email field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 1091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I see the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 1007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I fill \"password\" with \"valid\" data",
+            "result": {
+              "status": "passed",
+              "duration": 393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "click the login button",
+            "result": {
+              "status": "passed",
+              "duration": 228000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I see \"Please enter your e-mail address and password\"",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;blank-password-field",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Blank password field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 2316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I see the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I fill the \"email\" field as \"valid\" data",
+            "result": {
+              "status": "passed",
+              "duration": 788000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "click the login button",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I see \"Please enter your e-mail address and password\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;click-forgot-password-link",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Click forgot password link",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 851000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I see the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 984000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I fill the \"email\" field as \"valid\" data",
+            "result": {
+              "status": "passed",
+              "duration": 534000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "click the Forgot Password link",
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I see \"We've just sent you an email to reset your password\"",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;click-forgot-password-link-with-blank-email",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Click forgot password link with blank email",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 937000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I see the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I click the Forgot Password link",
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I see \"email or username are required\"",
+            "result": {
+              "status": "passed",
+              "duration": 502000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;click-bottom-login-link-from-create-account-page",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Click bottom Login link from Create Account page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 914000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I see the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 1002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Click bottom Log in link",
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I see Log In button exists",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;fill-the-login-form-with-valid-credintials-and-submit",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Fill the login form with valid credintials and submit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 925000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I see the title \"welcomeTitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 844000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I fill username with \"email\" and password with \"password\" as \"valid\" data",
+            "result": {
+              "status": "passed",
+              "duration": 948000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "click the login button",
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I land to the homepage with the title \"Welcome to Cart.com!\"",
+            "result": {
+              "status": "passed",
+              "duration": 3581000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

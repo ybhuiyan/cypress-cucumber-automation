@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: cart-storefront-integration-api-develop
+images:
+- name: IMAGE/TAG
+  newName: cart-storefront-integration-api
+bases: 
+- ../../base
+resources:
+- namespace.yaml 
+- ./configMaps/shared-config.yaml

@@ -1,0 +1,462 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Navigation for logged in user",
+    "line": 1,
+    "id": "navigation-for-logged-in-user",
+    "tags": [],
+    "uri": "navigationForLoggedinUser.feature",
+    "elements": [
+      {
+        "id": "navigation-for-logged-in-user;login-and-test-navigation-link-working",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login and test Navigation link working",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged in and visit cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 208823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click the \"Storefront\"",
+            "result": {
+              "status": "passed",
+              "duration": 412000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see a page with url \"https://console.cart.com/storefront\"",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-for-logged-in-user;login-and-test-navigation-link-working",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login and test Navigation link working",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged in and visit cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7695000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click the \"Fulfillment\"",
+            "result": {
+              "status": "passed",
+              "duration": 544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see a page with url \"https://console.cart.com/fulfillment\"",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-for-logged-in-user;login-and-test-navigation-link-working",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login and test Navigation link working",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged in and visit cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 10441000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click the \"Dashboard\"",
+            "result": {
+              "status": "passed",
+              "duration": 385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see a page with url \"https://console.cart.com/unified-analytics/dashboard\"",
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-for-logged-in-user;login-and-test-navigation-link-working",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login and test Navigation link working",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged in and visit cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 6689000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click the \"Multichannel Management\"",
+            "result": {
+              "status": "passed",
+              "duration": 370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see a page with url \"https://console.cart.com/multichannel-management\"",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-for-logged-in-user;login-and-test-navigation-link-working",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login and test Navigation link working",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged in and visit cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 6648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click the \"Growth Marketing\"",
+            "result": {
+              "status": "passed",
+              "duration": 516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see a page with url \"https://console.cart.com/growth-marketing\"",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-for-logged-in-user;login-and-test-navigation-link-working",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Login and test Navigation link working",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged in and visit cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 6922000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click the \"Customer Engagement\"",
+            "result": {
+              "status": "passed",
+              "duration": 548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see a page with url \"https://console.cart.com/customer-engagement\"",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-for-logged-in-user;login-and-test-navigation-link-working",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login and test Navigation link working",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged in and visit cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 6875000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 302000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click the \"Marketplace Services\"",
+            "result": {
+              "status": "passed",
+              "duration": 505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see a page with url \"https://console.cart.com/marketplace-services\"",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-for-logged-in-user;login-and-test-navigation-link-working",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Login and test Navigation link working",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged in and visit cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 6880000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click the \"Data Science Solutions\"",
+            "result": {
+              "status": "passed",
+              "duration": 483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see a page with url \"https://console.cart.com/data-science-solutions\"",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-for-logged-in-user;login-and-test-navigation-link-working",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Login and test Navigation link working",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged in and visit cart.com homepage",
+            "result": {
+              "status": "passed",
+              "duration": 9628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the dropdown menu",
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click the \"Growth Capital\"",
+            "result": {
+              "status": "passed",
+              "duration": 376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see a page with url \"https://console.cart.com/growth-capital\"",
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

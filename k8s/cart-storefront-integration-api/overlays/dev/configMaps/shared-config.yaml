@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shared-config
+data:
+  KUBE_NAMESPACE: "develop"
+  AUTH0_USERIMPORT_PATH: "./scripts/cartdev.json"

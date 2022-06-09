@@ -1,0 +1,548 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Registration",
+    "line": 1,
+    "id": "registration",
+    "tags": [],
+    "uri": "registration.feature",
+    "elements": [
+      {
+        "id": "registration;create-account-navigation",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Create account navigation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 280215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 1329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I see \"First name\"",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-information",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Create account without information",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 857000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 1075000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click Create Account button",
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-first-name-field",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Create account without First Name field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 893000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 1070000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I fill in the form with the following information and submit without filling \"First name\"",
+            "result": {
+              "status": "passed",
+              "duration": 2021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-last-name-field",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Create account without Last Name field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 1072000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 990000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I fill in the form with the following information and submit without filling \"Last name\"",
+            "result": {
+              "status": "passed",
+              "duration": 2066000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-password-field",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Create account without Password field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 1052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 1024000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I fill in the form with the following information and submit without filling \"Password\"",
+            "result": {
+              "status": "passed",
+              "duration": 2066000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-phone-field",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Create account without Phone field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 998000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 1295000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I fill in the form with the following information and submit without filling \"Phone\"",
+            "result": {
+              "status": "passed",
+              "duration": 1992000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;create-account-without-email-field",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Create account without Email field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 1025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I click \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 952000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I fill in the form with the following information and submit without filling \"Email\"",
+            "result": {
+              "status": "passed",
+              "duration": 1891000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I see \"This field is required\"",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;fill-in-the-form-with-valid-information-and-submit",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Fill in the form with valid information and submit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit https://console.cart.com",
+            "result": {
+              "status": "passed",
+              "duration": 1002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "user click the Create Account button",
+            "result": {
+              "status": "passed",
+              "duration": 926000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "password",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "@Testing11",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 61,
+            "name": "the user fill in the form with the following information and submit",
+            "result": {
+              "status": "passed",
+              "duration": 1769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "the user see the Create Organization button and click it",
+            "result": {
+              "status": "passed",
+              "duration": 4201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "the user fill the organization form and submit",
+            "result": {
+              "status": "passed",
+              "duration": 5183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "the user should be redirected to the homepage with the text \"Welcome to Cart.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

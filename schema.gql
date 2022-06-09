@@ -1,0 +1,31 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type CartProduct {
+  """Example field (placeholder)"""
+  exampleField: Int!
+}
+
+input CartProductInput {
+  """Example field (placeholder)"""
+  id: Int!
+}
+
+type Mutation {
+  createProduct(cartProductInput: CartProductInput!): CartProduct!
+  removeProduct(id: Int!): CartProduct!
+  updateProduct(cartProductInput: CartProductInput!): CartProduct!
+}
+
+type Query {
+  cartProduct(id: Int!): CartProduct!
+  cartProductList: [CartProduct!]!
+  storefrontProduct(id: Int!): StorefrontProduct!
+  storefrontProductList: [StorefrontProduct!]!
+}
+
+type StorefrontProduct {
+  """Example field (placeholder)"""
+  exampleField: Int!
+}

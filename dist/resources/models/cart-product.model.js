@@ -1,0 +1,72 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CartAttributeName = exports.AttributeType = exports.CartAttributeClass = exports.ProductType = exports.MediaType = void 0;
+var MediaType;
+(function (MediaType) {
+    MediaType[MediaType["IMAGE"] = 0] = "IMAGE";
+    MediaType[MediaType["VIDEO"] = 1] = "VIDEO";
+})(MediaType = exports.MediaType || (exports.MediaType = {}));
+var ProductType;
+(function (ProductType) {
+    ProductType["BUNDLE"] = "BUNDLE";
+    ProductType["ITEM"] = "ITEM";
+})(ProductType = exports.ProductType || (exports.ProductType = {}));
+var CartAttributeClass;
+(function (CartAttributeClass) {
+    CartAttributeClass["CORE"] = "CORE";
+    CartAttributeClass["FULFILLMENT"] = "FULFILLMENT";
+    CartAttributeClass["AMAZON"] = "AMAZON";
+    CartAttributeClass["WALMART"] = "WALMART";
+})(CartAttributeClass = exports.CartAttributeClass || (exports.CartAttributeClass = {}));
+var AttributeType;
+(function (AttributeType) {
+    AttributeType["TEXT"] = "TEXT";
+    AttributeType["TEXTAREA"] = "TEXTAREA";
+    AttributeType["BOOLEAN"] = "BOOLEAN";
+    AttributeType["NUMBER"] = "NUMBER";
+    AttributeType["SELECT"] = "SELECT";
+    AttributeType["MULTISELECT"] = "MULTISELECT";
+    AttributeType["DATE"] = "DATE";
+    AttributeType["METRIC"] = "METRIC";
+    AttributeType["PRICE"] = "PRICE";
+    AttributeType["IMAGE"] = "IMAGE";
+    AttributeType["MODEL"] = "MODEL";
+    AttributeType["ENUM"] = "ENUM";
+})(AttributeType = exports.AttributeType || (exports.AttributeType = {}));
+var CartAttributeName;
+(function (CartAttributeName) {
+    CartAttributeName[CartAttributeName["manufacturerId"] = 0] = "manufacturerId";
+    CartAttributeName[CartAttributeName["manufacturerPartNumber"] = 1] = "manufacturerPartNumber";
+    CartAttributeName[CartAttributeName["primaryCategoryId"] = 2] = "primaryCategoryId";
+    CartAttributeName[CartAttributeName["productStatus"] = 3] = "productStatus";
+    CartAttributeName[CartAttributeName["itemNumber"] = 4] = "itemNumber";
+    CartAttributeName[CartAttributeName["itemName"] = 5] = "itemName";
+    CartAttributeName[CartAttributeName["type"] = 6] = "type";
+    CartAttributeName[CartAttributeName["height"] = 7] = "height";
+    CartAttributeName[CartAttributeName["length"] = 8] = "length";
+    CartAttributeName[CartAttributeName["width"] = 9] = "width";
+    CartAttributeName[CartAttributeName["sizeUnit"] = 10] = "sizeUnit";
+    CartAttributeName[CartAttributeName["weight"] = 11] = "weight";
+    CartAttributeName[CartAttributeName["weightUnit"] = 12] = "weightUnit";
+    CartAttributeName[CartAttributeName["cost"] = 13] = "cost";
+    CartAttributeName[CartAttributeName["price"] = 14] = "price";
+    CartAttributeName[CartAttributeName["currency"] = 15] = "currency";
+    CartAttributeName[CartAttributeName["tags"] = 16] = "tags";
+    CartAttributeName[CartAttributeName["isNew"] = 17] = "isNew";
+    CartAttributeName[CartAttributeName["isHidden"] = 18] = "isHidden";
+    CartAttributeName[CartAttributeName["isKit"] = 19] = "isKit";
+    CartAttributeName[CartAttributeName["isChildProduct"] = 20] = "isChildProduct";
+    CartAttributeName[CartAttributeName["isNonInventory"] = 21] = "isNonInventory";
+    CartAttributeName[CartAttributeName["isDiscontinued"] = 22] = "isDiscontinued";
+    CartAttributeName[CartAttributeName["isSubscriptionProduct"] = 23] = "isSubscriptionProduct";
+    CartAttributeName[CartAttributeName["subscriptionFrequency"] = 24] = "subscriptionFrequency";
+    CartAttributeName[CartAttributeName["subscriptionFrequencyType"] = 25] = "subscriptionFrequencyType";
+    CartAttributeName[CartAttributeName["isLinkedProduct"] = 26] = "isLinkedProduct";
+    CartAttributeName[CartAttributeName["masterProductId"] = 27] = "masterProductId";
+    CartAttributeName[CartAttributeName["vendorStoreId"] = 28] = "vendorStoreId";
+    CartAttributeName[CartAttributeName["etaDate"] = 29] = "etaDate";
+    CartAttributeName[CartAttributeName["publishedAt"] = 30] = "publishedAt";
+    CartAttributeName[CartAttributeName["averageReviewRating"] = 31] = "averageReviewRating";
+    CartAttributeName[CartAttributeName["reviewCount"] = 32] = "reviewCount";
+})(CartAttributeName = exports.CartAttributeName || (exports.CartAttributeName = {}));
+//# sourceMappingURL=cart-product.model.js.map

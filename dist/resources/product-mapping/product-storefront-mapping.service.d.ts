@@ -1,0 +1,30 @@
+import { StorefrontProductPictureModel } from './../models/storefront.model';
+import { CartProductVariantAttributeValue, Category } from '../models/cart-product.model';
+import { ProductFlatModel } from '../models/product-flat.model';
+import { StorefrontAttributeGroupModel, StorefrontProductAttributeModel, StorefrontProductModel, StorefrontProductCategoriesModel, StorefrontCategoryModel, StorefrontManufacturerModel, GroupAttributeModel } from '../models/storefront.model';
+import { StorefrontProductService } from '../storefront-product/storefront-product.service';
+export declare class ProductStorefrontMappingService {
+    private storefrontProductService;
+    constructor(storefrontProductService: StorefrontProductService);
+    MANUFACTURERTOKEN: string;
+    convertToStorefrontProduct(flatProduct: ProductFlatModel): Promise<StorefrontProductModel>;
+    getProductPictures(flatProduct: ProductFlatModel): StorefrontProductPictureModel[];
+    buildStorefrontProduct(flatProduct: ProductFlatModel, productStatusId: number, manufacturerObj: StorefrontManufacturerModel, primaryCategoryId: number, storefrontCategories: StorefrontProductCategoriesModel[], storefrontAttributes: StorefrontProductAttributeModel[], storefrontProductPictures: StorefrontProductPictureModel[]): Promise<StorefrontProductModel>;
+    getProductStatusFromStorefront(): Promise<any>;
+    getManufacturerName(cartAttributes: CartProductVariantAttributeValue[]): string;
+    getOrCreateStorefrontManufacturer(manufacturerName: string): Promise<StorefrontManufacturerModel>;
+    getManufacturerFromStorefront(storeManufacturerName: string): Promise<import("@apollo/client/core").ApolloQueryResult<any>>;
+    createManufacturerInStorefront(storeManufacturerName: string): Promise<import("@apollo/client/core").FetchResult<any, Record<string, any>, Record<string, any>>>;
+    convertToStorefrontCategories(productCategories: Category[]): Promise<StorefrontProductCategoriesModel[]>;
+    convertToStorefrontProductAttributeGroups(cartAttributes: CartProductVariantAttributeValue[]): Promise<GroupAttributeModel[]>;
+    convertToStorefrontProductAttributes(groupAttributes: GroupAttributeModel[]): Promise<StorefrontProductAttributeModel[]>;
+    getOrCreateStorefrontProductAttributeGroup(attributeName: string): Promise<StorefrontAttributeGroupModel>;
+    getAttributeGroupFromStorefront(storeAttributeGroupName: string): Promise<import("@apollo/client/core").ApolloQueryResult<any>>;
+    createAttributeGroupInStorefront(storeAttributeGroupName: string): Promise<StorefrontAttributeGroupModel>;
+    getOrCreateStorefrontProductAttribute(attributeGroupId: number, storeAttributeName: string): Promise<StorefrontAttributeGroupModel>;
+    getAttributeFromStorefront(attributeGroupId: number, storeAttributeName: string): Promise<import("@apollo/client/core").ApolloQueryResult<any>>;
+    createAttributeInStorefront(attributeGroupId: number, storeAttributeGroupName: string): Promise<import("@apollo/client/core").FetchResult<any, Record<string, any>, Record<string, any>>>;
+    getOrCreateStorefrontCategory(categoryName: string): Promise<StorefrontCategoryModel>;
+    getCategoryFromStorefront(storeCategoryName: string): Promise<import("@apollo/client/core").ApolloQueryResult<any>>;
+    createCategoryInStorefront(storeCategoryName: string): Promise<any>;
+}

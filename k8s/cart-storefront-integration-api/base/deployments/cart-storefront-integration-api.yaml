@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cart-storefront-integration-api
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cart-storefront-integration-api
+  template:
+    metadata:
+      labels:
+        app: cart-storefront-integration-api
+    spec:
+      serviceAccountName: cart-storefront-integration-api-service-account-dev
+      containers:
+        - name: cart-storefront-integration-api
+          image: IMAGE/TAG
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          imagePullPolicy: Always
+          envFrom:
+          - configMapRef: 
+              name: shared-config
+          - secretRef:
+              name: cart-storefront-integration-api-secrets
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+      dnsPolicy: ClusterFirst
+      securityContext: {}
+      schedulerName: default-scheduler
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  revisionHistoryLimit: 10
+  progressDeadlineSeconds: 600
