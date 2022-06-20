@@ -1,4 +1,6 @@
 const fs = require('fs');
+const path = require("path")
+
 function getDirectories(path) {
     return fs.readdirSync(path).filter(function (file) {
       return fs.statSync(path+'/'+file).isDirectory();
@@ -47,6 +49,8 @@ fs.rename(folderName+'/index.html', './reports/cucumber-html-reports'+'/'+yyyy+'
                     if (err) {
                         console.log(err);
                     } else {
+                        const absolutePath = path.resolve('./reports/cucumber-html-reports'+'/'+yyyy+'-'+mm+'-'+dd+'-'+'cucumber-html-report.html')
+                        console.log(absolutePath)
                         updateFileList();
                     }
                 });

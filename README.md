@@ -16,6 +16,8 @@ $ npm install
 
 ## to start testing, run:
 ```
+$ npx cypress open
+or
 $ ./node_modules/.bin/cypress open
 ```
 

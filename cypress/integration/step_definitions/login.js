@@ -34,7 +34,7 @@ And("I see the title {string}", (string) => {
 });
 
 Then("the user should be redirected to the homepage with the title {string}", (content) => {
-    cy.wait(28000);
+    cy.wait(10000);
     cy.contains(content);
 });
 

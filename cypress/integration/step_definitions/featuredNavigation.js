@@ -7,7 +7,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 Given("I am logged in and at homepage", () => {
     cy.login(Cypress.env('auth0_username'), Cypress.env('auth0_password'))
     cy.visit('https://console.cart.com')
-    cy.wait(15000)
+    cy.wait(5000)
 })
 
 When("I click the button in {string} card", (title) => {
